@@ -1,7 +1,13 @@
 {
   "name": "jsSHA",
   "version": "1.4.2",
-  "main": "src/sha_dev.js",
+  "main": {
+    "src/sha_dev.js",
+    "src/sha1.js",
+    "src/sha.js",
+    "src/sha256.js",
+    "src/sha512.js"
+  }
   "repository": {
     "type": "git",
     "url": "git://github.com/buttercoin/jsSHA.git"
